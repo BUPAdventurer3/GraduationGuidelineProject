@@ -54,8 +54,8 @@
 
 <ul>
   <li><a class="active" href="medical/home.jsp">Home</a></li>
-  <li><a href="medical/medical.jsp">Medical</a></li>
-  <li><a href="medical/national.jsp">National</a></li>
+  <li><a href="/medicalList">Medical</a></li>
+  <li><a href="/nulist">National</a></li>
   <li><a href="/showUniversity">University</a></li>
   <li style="float:right"><a href="Admin/adminLogin.jsp">Login</a></li>
 
