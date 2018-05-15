@@ -24,7 +24,7 @@ public class test {
         ResultSet rs = null;
 
         try{
-            sql = "SELECT ADMIN_NAME, ADMIN_PASS FROM   ADMIN_LOGIN";
+            sql = "SELECT * from uni_official_information";
             ps = conn.prepareStatement(sql);
             rs = ps.executeQuery();
 
@@ -32,15 +32,14 @@ public class test {
             admin_pass = rs.getString("admin_pass");*/
            while (rs.next()){
 
-               if(uname.equals(rs.getString("admin_name")) && pass.equals(rs.getString("admin_pass")))
-               {
-
-                   System.out.println ("Ball OK");
-               }
-               else{
-                   System.out.println ("Name:");
-
-               }
+               System.out.println(rs.getInt(1));
+               System.out.println(rs.getString(2));
+               System.out.println(rs.getString(3));
+               System.out.println(rs.getString(4));
+               System.out.println(rs.getString(5));
+               System.out.println(rs.getString(6));
+               System.out.println(rs.getString(7));
+               System.out.println(rs.getString(8));
 
            }
 

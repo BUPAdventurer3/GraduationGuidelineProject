@@ -26,19 +26,19 @@
     <br>
     <br>
     University  Type:
-    <select>
-        <option name="type">Public</option>
-        <option name="type">Private</option>
+    <select name="type">
+        <option>Public</option>
+        <option>Private</option>
     </select>
     <br>
     <br>
     University  Category:
-    <select>
-        <option name="category">Agricultural</option>
-        <option name="category">Engineering</option>
-        <option name="category">General</option>
-        <option name="category">Science & Technology</option>
-        <option name="category">Textile</option>
+    <select name="category">
+        <option>Agricultural</option>
+        <option>Engineering</option>
+        <option>General</option>
+        <option>Science & Technology</option>
+        <option>Textile</option>
     </select>
     <br>
     <br>
@@ -51,15 +51,15 @@
     <br>
     <br>
     University  Division:
-    <select>
-        <option name="division">Barishal</option>
-        <option name="division">Chittagong</option>
-        <option name="division">Dhaka</option>
-        <option name="division">Khulna</option>
-        <option name="division">Mymensingh</option>
-        <option name="division">Rajshahi</option>
-        <option name="division">Rangpur</option>
-        <option name="division">Sylhet</option>
+    <select name="division">
+        <option >Barishal</option>
+        <option >Chittagong</option>
+        <option >Dhaka</option>
+        <option >Khulna</option>
+        <option >Mymensingh</option>
+        <option >Rajshahi</option>
+        <option >Rangpur</option>
+        <option >Sylhet</option>
     </select>
     <br>
     <br>
@@ -90,6 +90,7 @@
 
     <input type="submit" value="INSERT" name="insert">
 </form>
+
 
 </body>
 </html>

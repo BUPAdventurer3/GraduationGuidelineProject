@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: Al Shariar
-  Date: 5/14/2018
-  Time: 5:58 PM
+  Date: 5/15/2018
+  Time: 3:57 AM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -13,20 +13,32 @@
         body{
             background-color: green;
         }
-        form{
+        .medical{
             text-align: center;
+            background: yellow;
+
+
+
         }
+
+
     </style>
-
 </head>
-
 <body>
-<form action="/adminlogin" method="get" >
-  Admin Id:  <input type="text" placeholder="Admin Id" name="admin_id">
+<form action="/mediAcademicCurriculumnServlet" method="get" class="medical">
+
+    <h1> Medical_Academic_Curriculumn</h1>
+    PROF:
+    <input type="text" name="prof">
     <br>
-   Password <input type="password" placeholder="Password" name="password">
     <br>
-    <input type="submit" value="Login">
+    COURSES:
+    <input type="text" name="courses">
+    <br>
+    <br>
+
+    <input type="submit" value="Insert">
+
 </form>
 </body>
 </html>
